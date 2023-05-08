@@ -8,6 +8,7 @@
     width: 10%;
     float: left;
     margin: 1% 10%;
+    cursor: pointer;
 }
 
 :root {
@@ -25,7 +26,7 @@ body {
     position: relative;
     background: url('../img/Netflix\ Cover.jpg');
     height: 93vh;
-    border-bottom: 5px solid rgb(97, 94, 94);
+
 
 }
 
@@ -56,7 +57,7 @@ h1 {
     font-size: 3.1rem;
     margin: 10px;
     font-weight: 900;
-    col
+    line-height: 5.3rem;
 }
 
 .btn-rounded {
@@ -98,7 +99,6 @@ h1 {
 
 .boxy {
     height: 76vh;
-    border-bottom: 5px solid rgb(97, 94, 94);
 }
 
 .box {
@@ -146,4 +146,61 @@ h1 {
     margin: 5px 12%;
     background-color: var(--light-grey);
     color: #fff;
+}
+
+/* Footer  */
+footer {
+    height: 56vh;
+    width: 100%;
+    background-color: #000
+}
+
+.footer-container {
+    background-color: #000;
+    height: 50vh;
+    width: 75%;
+    margin: auto;
+
+}
+
+.footer-sec-1 {
+    padding: 2rem 0;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* place-items: center; */
+    padding: 2rem 0;
+
+}
+
+li {
+    padding: 0;
+    margin: 6px;
+    list-style: none;
+    color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: #fff;
+}
+
+/* Utility Classes */
+.sec-line {
+    border-bottom: 5px solid rgb(97, 94, 94);
+}
+
+button {
+    cursor: pointer;
 }
